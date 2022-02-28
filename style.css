@@ -1,1 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    background-color: #eee;
+}
+
+
+
+.newspaper-container {
+    background-color: white;
+    width: 700px;
+    border-radius: 10px;
+    box-shadow:3px 3px 3px #eee;
+    padding: 1em;
+    margin: auto;
+    font-family: source sans pro;
+}
+
+
+.newspaper-container p {
+    text-align: justify;
+    padding: 0.5em;
+}
+
+
+
+header h1 {
+    text-align: center;
+    font-family: abril Fatface;
+}
+
+
+
+nav{
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+    margin: auto;
+    padding: 0 1em 0 1em;
+    width: 100%;
+}
+
+
+nav li{
+    display: inline-block;
+    padding: 6px;
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #777;
+}
+
+
+nav a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+
+main h5{
+    color: #dd3232;
+}
+
+
+
+main h2 {
+    font-family: Roboto Slab;
+}
+
+
+
+main img {
+    width: 100%;
+}
+
+
+
+.more-articles section{
+    display: inline-block;
+    width: 40%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+
+.more-articles img {
+    width: 100%;
+}
